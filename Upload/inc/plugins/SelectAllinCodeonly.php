@@ -1,4 +1,17 @@
 <?php
+/*
+ * MyBB: Select All In Code's Plus
+ *
+ * File: SelectAllinCodeonly.php
+ * 
+ * Authors: Edson Ordaz & Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Plugin Version: 1.2
+ * 
+ */
+
 if(!defined("IN_MYBB"))
 {
 	die("Direct initialization of this file is not allowed.<br /><br />Please make sure IN_MYBB is defined.");
@@ -8,16 +21,27 @@ $plugins->add_hook("showthread_start","SAICAPCodeOnly");
 
 function SelectAllinCodeOnly_info()
 {
-	return array(
-		"name"			=> "Select All In Code's Plus",
-		"description"	=> "Select all in Code and PHP plus expand and collapse",
-		"website"		=> "https://community.mybb.com/user-6029.html",
-		"author"		=> "Edson Ordaz updated & modified by vintagedaddyo",
-		"authorsite"	=> "https://community.mybb.com/user-6029.html",
-		"version"		=> "1.1",
-		"compatibility" => "18*",
-		"guid"			=> "608cb4086667cdd6d0d3ba103991c309"
-	);
+    global $lang;
+
+    $lang->load("SelectAllinCodeonly");
+    
+    $lang->selectallincodeonly_Desc = '<form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="float:right;">' .
+        '<input type="hidden" name="cmd" value="_s-xclick">' . 
+        '<input type="hidden" name="hosted_button_id" value="AZE6ZNZPBPVUL">' .
+        '<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">' .
+        '<img alt="" border="0" src="https://www.paypalobjects.com/pl_PL/i/scr/pixel.gif" width="1" height="1">' .
+        '</form>' . $lang->selectallincodeonly_Desc;
+
+    return Array(
+        'name' => $lang->selectallincodeonly_Name,
+        'description' => $lang->selectallincodeonly_Desc,
+        'website' => $lang->selectallincodeonly_Web,
+        'author' => $lang->selectallincodeonly_Auth,
+        'authorsite' => $lang->selectallincodeonly_AuthSite,
+        'version' => $lang->selectallincodeonly_Ver,
+        'codename' => $lang->selectallincodeonly_CodeName,
+        'compatibility' => $lang->selectallincodeonly_Compat
+    );
 }
 
 function SelectAllinCodeOnly_activate()
@@ -40,7 +64,7 @@ function selectCode(a)
       var s = window.getSelection();
        if (s.setBaseAndExtent)
       {
-         s.setBaseAndExtent(e, 0, e, e.innerText.length - 1);
+         s.setBaseAndExtent(e, 0, e.parentNode, 1);
       }
       else
       {
@@ -130,9 +154,13 @@ $(document).ready(function () {
     });
 });
 </script>";
-	global $lang;
-	$lang->load("global", false, true);
-	$lang->php_code .= " <a href=# onclick=\"selectCode(this); return false;\">(Select All)</a>";
-	$lang->code .= " <a href=# onclick=\"selectCode(this); return false;\">(Select All)</a>";
+  global $lang;
+
+  $lang->load("SelectAllinCodeonly");
+
+ // $lang->load("global", false, true);
+
+  $lang->php_code .= ''.$lang->selectallincodeonly_PHP_Code.'';
+  $lang->code .= ''.$lang->selectallincodeonly_Code.'';
 }
 ?>

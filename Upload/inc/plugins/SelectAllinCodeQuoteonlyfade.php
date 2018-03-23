@@ -1,4 +1,17 @@
 <?php
+/*
+ * MyBB: Select All In Code's Quote Only fade
+ *
+ * File: SelectAllinCodeQuoteonlyfade.php
+ * 
+ * Authors: Edson Ordaz & Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Plugin Version: 1.2
+ * 
+ */
+
 if(!defined("IN_MYBB"))
 {
 	die("Direct initialization of this file is not allowed.<br /><br />Please make sure IN_MYBB is defined.");
@@ -8,16 +21,27 @@ $plugins->add_hook("showthread_start","SAICAPQuoteOnlyfade");
 
 function SelectAllinCodeQuoteOnlyfade_info()
 {
-	return array(
-		"name"			=> "Select All In Code's Quote Only fade",
-		"description"	=> "Select all in Code and PHP plus collapse and expand fade",
-		"website"		=> "https://community.mybb.com/user-6029.html",
-		"author"		=> "Edson Ordaz updated & modified by vintagedaddyo",
-		"authorsite"	=> "https://community.mybb.com/user-6029.html",
-		"version"		=> "1.1",
-		"compatibility" => "18*",
-		"guid"			=> "608cb4086667cdd6d0d3ba103991c309"
-	);
+    global $lang;
+
+    $lang->load("SelectAllinCodeQuoteOnlyfade");
+    
+    $lang->selectallincodequoteonlyfade_Desc = '<form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="float:right;">' .
+        '<input type="hidden" name="cmd" value="_s-xclick">' . 
+        '<input type="hidden" name="hosted_button_id" value="AZE6ZNZPBPVUL">' .
+        '<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">' .
+        '<img alt="" border="0" src="https://www.paypalobjects.com/pl_PL/i/scr/pixel.gif" width="1" height="1">' .
+        '</form>' . $lang->selectallincodequoteonlyfade_Desc;
+
+    return Array(
+        'name' => $lang->selectallincodequoteonlyfade_Name,
+        'description' => $lang->selectallincodequoteonlyfade_Desc,
+        'website' => $lang->selectallincodequoteonlyfade_Web,
+        'author' => $lang->selectallincodequoteonlyfade_Auth,
+        'authorsite' => $lang->selectallincodequoteonlyfade_AuthSite,
+        'version' => $lang->selectallincodequoteonlyfade_Ver,
+        'codename' => $lang->selectallincodequoteonlyfade_CodeName,
+        'compatibility' => $lang->selectallincodequoteonlyfade_Compat
+    );
 }
 
 function SelectAllinCodeQuoteOnlyfade_activate()
@@ -40,7 +64,7 @@ function selectCode(a)
       var s = window.getSelection();
        if (s.setBaseAndExtent)
       {
-         s.setBaseAndExtent(e, 0, e, e.innerText.length - 1);
+        s.setBaseAndExtent(e, 0, e.parentNode, 1);
       }
       else
       {
@@ -132,9 +156,13 @@ $(document).ready(function() {
        });
    });
 </script>";
-	global $lang;
-	$lang->load("global", false, true);
-	$lang->php_code .= " <a href=# onclick=\"selectCode(this); return false;\">(Select All)</a>";
-	$lang->code .= " <a href=# onclick=\"selectCode(this); return false;\">(Select All)</a>";
+  global $lang;
+
+  $lang->load("SelectAllinCodeQuoteOnlyfade");
+
+ // $lang->load("global", false, true);
+
+  $lang->php_code .= ''.$lang->selectallincodequoteonlyfade_PHP_Code.'';
+  $lang->code .= ''.$lang->selectallincodequoteonlyfade_Code.'';
 }
 ?>

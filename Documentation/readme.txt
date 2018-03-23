@@ -25,3 +25,16 @@ by:  Vintagedaddyo: http://community.mybb.com/user-6029.html
  * Fri, Nov 25th 3:27 Just now updated with three plugin file options (Select All "Plus", Select All "Code Only", Select All "Quote only")
 
  * Added another 2 alternates: SelectAllinCodeQuoteonlyfade.php & SAICAPQCfade.php based on request at: https://community.mybb.com/thread-206116.html
+
+
+* Updated to version 1.2
+
+* fixed minor issue where select all was no longer working
+ 
+Further localization support
+
+- english
+- englishgb
+- espanol
+- french
+- italiano
