@@ -117,7 +117,7 @@ function selectCode(a)
     text-align: center;
     position: absolute;
     background: #D3D3D3;
-    content: ''.$lang->saicapqcfade_showmore.'';
+    content: 'Show More';
     border: 1px solid #A5A5A5;
     border-radius: 0px 0px 5px 5px; 
     -moz-border-radius: 0px 0px 5px 5px;
