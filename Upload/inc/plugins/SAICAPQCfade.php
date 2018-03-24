@@ -64,7 +64,7 @@ function selectCode(a)
       var s = window.getSelection();
        if (s.setBaseAndExtent)
       {
-         s.setBaseAndExtent(e, 0, e, e.innerText.length - 1);
+       s.setBaseAndExtent(e, 0, e.parentNode, 1);
       }
       else
       {
