@@ -30,6 +30,8 @@ by:  Vintagedaddyo: http://community.mybb.com/user-6029.html
 * Updated to version 1.2
 
 * fixed minor issue where select all was no longer working
+
+* added a plain select all in php code and code plugin
  
 Further localization support
 

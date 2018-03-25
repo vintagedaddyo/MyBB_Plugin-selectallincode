@@ -46,6 +46,7 @@ function SAICAPQCfade_info()
 
 function SAICAPQCfade_activate()
 {
+
 }
 
 function SAICAPQCfade_deactivate()
@@ -55,7 +56,8 @@ function SAICAPQCfade_deactivate()
 function SAICAPQCfade()
 {
 	global $headerinclude;
-	$headerinclude .= "<script type=\"text/javascript\">
+	$headerinclude .= "
+<script type=\"text/javascript\">
 function selectCode(a)
 {
    var e = a.parentNode.parentNode.getElementsByTagName('CODE')[0];
@@ -168,6 +170,9 @@ $(document).ready(function() {
        });
    });
 </script>";
+
+
+
   global $lang;
 
   $lang->load("SAICAPQCfade");
