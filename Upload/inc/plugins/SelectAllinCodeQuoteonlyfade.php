@@ -17,7 +17,11 @@ if(!defined("IN_MYBB"))
 	die("Direct initialization of this file is not allowed.<br /><br />Please make sure IN_MYBB is defined.");
 }
 
+// Load in showthread
 $plugins->add_hook("showthread_start","SAICAPQuoteOnlyfade");
+
+// Load in portal 
+$plugins->add_hook("portal_start","SAICAPQuoteOnlyFade");
 
 function SelectAllinCodeQuoteOnlyfade_info()
 {

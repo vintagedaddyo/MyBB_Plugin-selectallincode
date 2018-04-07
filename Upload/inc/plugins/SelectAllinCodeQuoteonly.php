@@ -17,7 +17,11 @@ if(!defined("IN_MYBB"))
 	die("Direct initialization of this file is not allowed.<br /><br />Please make sure IN_MYBB is defined.");
 }
 
+// Load in showthread
 $plugins->add_hook("showthread_start","SAICAPQuoteOnly");
+
+// Load in portal 
+$plugins->add_hook("portal_start","SAICAPQuoteOnly");
 
 function SelectAllinCodeQuoteOnly_info()
 {
@@ -158,7 +162,7 @@ $(document).ready(function () {
 
   $lang->load("SelectAllinCodeQuoteOnly");
 
- // $lang->load("global", false, true);
+//  $lang->load("global", false, true);
 
   $lang->php_code .= ''.$lang->selectallincodequoteonly_PHP_Code.'';
   $lang->code .= ''.$lang->selectallincodequoteonly_Code.'';

@@ -17,7 +17,11 @@ if(!defined("IN_MYBB"))
 	die("Direct initialization of this file is not allowed.<br /><br />Please make sure IN_MYBB is defined.");
 }
 
+// Load in showthread
 $plugins->add_hook("showthread_start","SAICAPQCfade");
+
+// Load in portal 
+$plugins->add_hook("portal_start","SAICAPQCfade");
 
 function SAICAPQCfade_info()
 {

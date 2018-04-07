@@ -13,7 +13,7 @@
  */
 
 $l['selectallincodequoteonlyfade_Code'] = " <a href=# onclick=\"selectCode(this); return false;\">(Tout sélectionner)</a>";
-$l['selectallincodquoteeonlyfade_PHP_Code'] = " <a href=# onclick=\"selectCode(this); return false;\">(Tout sélectionner)</a>";
+$l['selectallincodequoteonlyfade_PHP_Code'] = " <a href=# onclick=\"selectCode(this); return false;\">(Tout sélectionner)</a>";
 
 $l['selectallincodequoteonlyfade_showmore'] = "Montre plus";
 $l['selectallincodequoteonlyfade_showless'] = "Montre moins";
