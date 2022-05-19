@@ -12,8 +12,8 @@
  * 
  */
 
-$l['selectallincodequoteonlyfade_Code'] = " <a href=# onclick=\"selectCode(this); return false;\">(Select All)</a>";
-$l['selectallincodequoteonlyfade_PHP_Code'] = " <a href=# onclick=\"selectCode(this); return false;\">(Select All)</a>";
+$l['selectallincodequoteonlyfade_Code'] = " <a href=\"#\" onclick=\"selectCode(this); return false;\">(Select All)</a>";
+$l['selectallincodequoteonlyfade_PHP_Code'] = " <a href=\"#\" onclick=\"selectCode(this); return false;\">(Select All)</a>";
 
 $l['selectallincodequoteonlyfade_showmore'] = "Show More";
 $l['selectallincodequoteonlyfade_showless'] = "Show Less";

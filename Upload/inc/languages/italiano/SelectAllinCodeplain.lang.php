@@ -12,7 +12,7 @@
  * 
  */
 
-$l['selectallincodeplain_Code'] = " <a href=# onclick=\"selectCode(this); return false;\">(Seleziona tutto)</a>";
-$l['selectallincodeplain_PHP_Code'] = " <a href=# onclick=\"selectCode(this); return false;\">(Seleziona tutto)</a>";
+$l['selectallincodeplain_Code'] = " <a href=\"#\" onclick=\"selectCode(this); return false;\">(Seleziona tutto)</a>";
+$l['selectallincodeplain_PHP_Code'] = " <a href=\"#\" onclick=\"selectCode(this); return false;\">(Seleziona tutto)</a>";
 
 ?>

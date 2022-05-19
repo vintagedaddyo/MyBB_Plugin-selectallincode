@@ -12,8 +12,8 @@
  * 
  */
 
-$l['selectallincodeonly_Code'] = " <a href=# onclick=\"selectCode(this); return false;\">(Seleccionar todo)</a>";
-$l['selectallincodeonly_PHP_Code'] = " <a href=# onclick=\"selectCode(this); return false;\">(Seleccionar todo)</a>";
+$l['selectallincodeonly_Code'] = " <a href=\"#\" onclick=\"selectCode(this); return false;\">(Seleccionar todo)</a>";
+$l['selectallincodeonly_PHP_Code'] = " <a href=\"#\" onclick=\"selectCode(this); return false;\">(Seleccionar todo)</a>";
 
 $l['selectallincodeonly_showmore'] = "Mostrar más";
 $l['selectallincodeonly_showless'] = "Muestra menos";

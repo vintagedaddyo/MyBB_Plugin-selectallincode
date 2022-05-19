@@ -12,8 +12,8 @@
  * 
  */
 
-$l['saicapqcfade_Code'] = " <a href=# onclick=\"selectCode(this); return false;\">(Select All)</a>";
-$l['saicapqcfade_PHP_Code'] = " <a href=# onclick=\"selectCode(this); return false;\">(Select All)</a>";
+$l['saicapqcfade_Code'] = " <a href=\"#\" onclick=\"selectCode(this); return false;\">(Select All)</a>";
+$l['saicapqcfade_PHP_Code'] = " <a href=\"#\" onclick=\"selectCode(this); return false;\">(Select All)</a>";
 
 $l['saicapqcfade_showmore'] = "Show More";
 $l['saicapqcfade_showless'] = "Show Less";
