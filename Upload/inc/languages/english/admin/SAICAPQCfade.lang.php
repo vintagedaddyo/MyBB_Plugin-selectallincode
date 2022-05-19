@@ -17,7 +17,7 @@
 $l['saicapqcfade_Name'] = 'Select All In Codes with Quote And Code fade';
 $l['saicapqcfade_Desc'] = 'Select all in Code and PHP plus collapse and expand fade';
 $l['saicapqcfade_Web'] = 'https://community.mybb.com/user-6029.html';
-$l['saicapqcfade_Auth'] = 'Edson Ordaz & updated by Vintgagedaddyo';
+$l['saicapqcfade_Auth'] = 'Edson Ordaz & updated by Vintagedaddyo';
 $l['saicapqcfade_AuthSite'] = 'http://community.mybb.com/user-6029.html';
 $l['saicapqcfade_Ver'] = '1.2';
 $l['saicapqcfade_GUID'] = '608cb4086667cdd6d0d3ba103991c309';

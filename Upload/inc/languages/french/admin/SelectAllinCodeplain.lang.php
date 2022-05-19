@@ -17,7 +17,7 @@
 $l['selectallincodeplain_Name'] = 'Tout sélectionner dans les codes Plain';
 $l['selectallincodeplain_Desc'] = 'Sélectionnez tout dans Code et PHP';
 $l['selectallincodeplain_Web'] = 'https://community.mybb.com/user-6029.html';
-$l['selectallincodeplain_Auth'] = 'Edson Ordaz & updated by Vintgagedaddyo';
+$l['selectallincodeplain_Auth'] = 'Edson Ordaz & updated by Vintagedaddyo';
 $l['selectallincodeplain_AuthSite'] = 'http://community.mybb.com/user-6029.html';
 $l['selectallincodeplain_Ver'] = '1.2';
 $l['selectallincodeplain_GUID'] = '608cb4086667cdd6d0d3ba103991c309';

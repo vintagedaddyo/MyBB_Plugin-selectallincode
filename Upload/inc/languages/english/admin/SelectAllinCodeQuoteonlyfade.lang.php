@@ -17,7 +17,7 @@
 $l['selectallincodequoteonlyfade_Name'] = 'Select All In Codes Quote Only fade';
 $l['selectallincodequoteonlyfade_Desc'] = 'Select all in Code and PHP plus collapse and expand fade';
 $l['selectallincodequoteonlyfade_Web'] = 'https://community.mybb.com/user-6029.html';
-$l['selectallincodequoteonlyfade_Auth'] = 'Edson Ordaz & updated by Vintgagedaddyo';
+$l['selectallincodequoteonlyfade_Auth'] = 'Edson Ordaz & updated by Vintagedaddyo';
 $l['selectallincodequoteonlyfade_AuthSite'] = 'http://community.mybb.com/user-6029.html';
 $l['selectallincodequoteonlyfade_Ver'] = '1.2';
 $l['selectallincodequoteonlyfade_GUID'] = '608cb4086667cdd6d0d3ba103991c309';
