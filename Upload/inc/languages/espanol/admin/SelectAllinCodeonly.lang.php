@@ -14,11 +14,11 @@
 
 // plugin_info
 
-$l['selectallincodeonly_Name'] = 'Seleccionar todo solo en códigos';
-$l['selectallincodeonly_Desc'] = 'Seleccionar todo en Código y PHP más expandir y colapsar';
-$l['selectallincodeonly_Web'] = 'https://community.mybb.com/user-6029.html';
-$l['selectallincodeonly_Auth'] = 'Edson Ordaz & updated by Vintagedaddyo';
-$l['selectallincodeonly_AuthSite'] = 'http://community.mybb.com/user-6029.html';
+$l['selectallincodeonly_Name'] = 'Seleccionar todo solo en Codigos';
+$l['selectallincodeonly_Desc'] = 'Seleccionar todo en Codigo y PHP mas expandir y colapsar';
+$l['selectallincodeonly_Web'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
+$l['selectallincodeonly_Auth'] = 'Edson Ordaz & Vintagedaddyo';
+$l['selectallincodeonly_AuthSite'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
 $l['selectallincodeonly_Ver'] = '1.2';
 $l['selectallincodeonly_GUID'] = '608cb4086667cdd6d0d3ba103991c309';
 $l['selectallincodeonly_Compat'] = '18*';

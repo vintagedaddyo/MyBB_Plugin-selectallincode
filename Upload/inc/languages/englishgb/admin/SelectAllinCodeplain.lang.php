@@ -16,9 +16,9 @@
 
 $l['selectallincodeplain_Name'] = 'Select All In Codes Plain';
 $l['selectallincodeplain_Desc'] = 'Select all in Code and PHP';
-$l['selectallincodeplain_Web'] = 'https://community.mybb.com/user-6029.html';
-$l['selectallincodeplain_Auth'] = 'Edson Ordaz & updated by Vintagedaddyo';
-$l['selectallincodeplain_AuthSite'] = 'http://community.mybb.com/user-6029.html';
+$l['selectallincodeplain_Web'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
+$l['selectallincodeplain_Auth'] = 'Edson Ordaz & Vintagedaddyo';
+$l['selectallincodeplain_AuthSite'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
 $l['selectallincodeplain_Ver'] = '1.2';
 $l['selectallincodeplain_GUID'] = '608cb4086667cdd6d0d3ba103991c309';
 $l['selectallincodeplain_Compat'] = '18*';

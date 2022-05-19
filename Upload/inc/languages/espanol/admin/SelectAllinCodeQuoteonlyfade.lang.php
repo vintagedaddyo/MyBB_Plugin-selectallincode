@@ -14,11 +14,11 @@
 
 // plugin_info
 
-$l['selectallincodequoteonlyfade_Name'] = 'Seleccionar todo en códigos Citar solo fundido';
-$l['selectallincodequoteonlyfade_Desc'] = 'Seleccionar todo en Code y PHP más colapso y expandir fade';
-$l['selectallincodequoteonlyfade_Web'] = 'https://community.mybb.com/user-6029.html';
-$l['selectallincodequoteonlyfade_Auth'] = 'Edson Ordaz & updated by Vintagedaddyo';
-$l['selectallincodequoteonlyfade_AuthSite'] = 'http://community.mybb.com/user-6029.html';
+$l['selectallincodequoteonlyfade_Name'] = 'Seleccionar todo en codigos Citar solo fundido';
+$l['selectallincodequoteonlyfade_Desc'] = 'Seleccionar todo en Code y PHP mas colapso y expandir fade';
+$l['selectallincodequoteonlyfade_Web'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
+$l['selectallincodequoteonlyfade_Auth'] = 'Edson Ordaz & Vintagedaddyo';
+$l['selectallincodequoteonlyfade_AuthSite'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
 $l['selectallincodequoteonlyfade_Ver'] = '1.2';
 $l['selectallincodequoteonlyfade_GUID'] = '608cb4086667cdd6d0d3ba103991c309';
 $l['selectallincodequoteonlyfade_Compat'] = '18*';

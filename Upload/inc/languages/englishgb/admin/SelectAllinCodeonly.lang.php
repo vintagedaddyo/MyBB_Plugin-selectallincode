@@ -16,9 +16,9 @@
 
 $l['selectallincodeonly_Name'] = 'Select All In Codes Only';
 $l['selectallincodeonly_Desc'] = 'Select all in Code and PHP plus expand and collapse';
-$l['selectallincodeonly_Web'] = 'https://community.mybb.com/user-6029.html';
-$l['selectallincodeonly_Auth'] = 'Edson Ordaz & updated by Vintagedaddyo';
-$l['selectallincodeonly_AuthSite'] = 'http://community.mybb.com/user-6029.html';
+$l['selectallincodeonly_Web'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
+$l['selectallincodeonly_Auth'] = 'Edson Ordaz & Vintagedaddyo';
+$l['selectallincodeonly_AuthSite'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
 $l['selectallincodeonly_Ver'] = '1.2';
 $l['selectallincodeonly_GUID'] = '608cb4086667cdd6d0d3ba103991c309';
 $l['selectallincodeonly_Compat'] = '18*';

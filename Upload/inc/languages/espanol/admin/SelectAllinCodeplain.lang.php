@@ -14,8 +14,8 @@
 
 // plugin_info
 
-$l['selectallincodeplain_Name'] = 'Seleccionar todo en Códigos normal';
-$l['selectallincodeplain_Desc'] = 'Seleccionar todo en Código y PHP';
+$l['selectallincodeplain_Name'] = 'Seleccionar todo en Codigos normal';
+$l['selectallincodeplain_Desc'] = 'Seleccionar todo en Codigo y PHP';
 $l['selectallincodeplain_Web'] = 'https://community.mybb.com/user-6029.html';
 $l['selectallincodeplain_Auth'] = 'Edson Ordaz & updated by Vintagedaddyo';
 $l['selectallincodeplain_AuthSite'] = 'http://community.mybb.com/user-6029.html';

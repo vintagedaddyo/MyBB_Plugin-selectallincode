@@ -14,11 +14,11 @@
 
 // plugin_info
 
-$l['saicapqcfade_Name'] = 'Sélectionner tout dans les codes avec la citation et le fondu de code';
-$l['saicapqcfade_Desc'] = 'Sélectionnez tout dans Code et PHP plus réduire et étendre fondu';
-$l['saicapqcfade_Web'] = 'https://community.mybb.com/user-6029.html';
-$l['saicapqcfade_Auth'] = 'Edson Ordaz & updated by Vintagedaddyo';
-$l['saicapqcfade_AuthSite'] = 'http://community.mybb.com/user-6029.html';
+$l['saicapqcfade_Name'] = 'Selectionner tout dans les codes avec la citation et le fondu de code';
+$l['saicapqcfade_Desc'] = 'Selectionnez tout dans Code et PHP plus réduire et etendre fondu';
+$l['saicapqcfade_Web'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
+$l['saicapqcfade_Auth'] = 'Edson Ordaz & Vintagedaddyo';
+$l['saicapqcfade_AuthSite'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
 $l['saicapqcfade_Ver'] = '1.2';
 $l['saicapqcfade_GUID'] = '608cb4086667cdd6d0d3ba103991c309';
 $l['saicapqcfade_Compat'] = '18*';
