@@ -123,7 +123,7 @@ function selectCode(a)
     text-align: center;
     position: absolute;
     background: #D3D3D3;
-    content: 'Show More';
+    /*content: 'Show More';*/
     border: 1px solid #A5A5A5;
     border-radius: 0px 0px 5px 5px; 
     -moz-border-radius: 0px 0px 5px 5px;
@@ -136,7 +136,32 @@ function selectCode(a)
     opacity: 1;
     color: #1A1A1A;
     background: #838383;
-  } 
+   } 
+  /** Translations **/
+
+  /* english */
+
+  .collapsed:lang(en):after{
+    content: 'Show More';
+   }
+
+  /* espanol */
+
+  .collapsed:lang(es):after{
+    content: 'Mostrar más';
+   }
+
+  /* french */
+
+  .collapsed:lang(fr):after{
+    content: 'Montre plus';
+   }
+
+  /* italiano */
+
+  .collapsed:lang(it):after{
+    content: 'Mostra di più';
+   }
 </style>
 <!-- Blockquote Collapsed/Expand -->
 <script type=\"text/javascript\">
