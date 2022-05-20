@@ -8,13 +8,11 @@
  *
  * MyBB Version: 1.8
  *
- * Plugin Version: 1.2
+ * Plugin Version: 1.3
  * 
  */
 
 $l['selectallincode_Code'] = " <a href=\"#\" onclick=\"selectCode(this); return false;\">(Seleziona tutto)</a>";
 $l['selectallincode_PHP_Code'] = " <a href=\"#\" onclick=\"selectCode(this); return false;\">(Seleziona tutto)</a>";
 
-$l['selectallincode_showmore'] = "Mostra di più";
-$l['selectallincode_showless'] = "Mostra meno";
 ?>

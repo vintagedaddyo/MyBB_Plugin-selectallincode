@@ -1,16 +1,16 @@
 Select All In Code And PHP
-Select all the code of tags 'code' and 'PHP'
-Author: Edson Ordaz
+Select all the code of tags 'Code' and 'PHP'
+Author: Edson Ordaz & Vintagedaddyo
 Submitted: 20th April 2011
+Last Updated: 20th May 2022
 Plugin Name: Select All In Code And PHP
-Plugin Author: Edson Ordaz
-Plugin Website: http://www.mybb-es.com
-Plugin Version: 1.0
-Plugin Mybb Compatibility: 1.6x
+Plugin Author: Edson Ordaz & Vintagedaddyo
+Plugin Website: https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode
+Plugin Version: 1.3
+Plugin Mybb Compatibility: 1.8.x
 Plugin Language: English
 Plugin File Edits: No
-Plugin File Uploads: 1
-Plugin Description: Select all the code of tags 'code' and 'PHP'.
+Plugin Description: Select all the code of tags 'Code' and 'PHP'.
 
 
 
@@ -34,6 +34,20 @@ by:  Vintagedaddyo: http://community.mybb.com/user-6029.html
 * added a plain select all in php code and code plugin
  
 Further localization support
+
+- english
+- englishgb
+- espanol
+- french
+- italiano
+
+* Updated to version 1.3 (May 20th, 2022)
+
+* fixed minor issue where select all was no longer working
+
+* fixed localization support only for the plugins that have "show more" & "show less" expand & collapse text as I had completely forgotten that I had never gotten around to that when I last looked at these plugins a few years ago.
+
+Current localization support:
 
 - english
 - englishgb

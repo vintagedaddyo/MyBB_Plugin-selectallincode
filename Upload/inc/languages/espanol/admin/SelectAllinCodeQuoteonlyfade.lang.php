@@ -2,13 +2,13 @@
 /*
  * MyBB: Select All In Code's Quote Only fade
  *
- * File: SelctAllinCodeQuoteonlyfade.lang.php
+ * File: SelectAllinCodeQuoteonlyfade.lang.php
  * 
  * Authors: Edson Ordaz & Vintagedaddyo
  *
  * MyBB Version: 1.8
  *
- * Plugin Version: 1.2
+ * Plugin Version: 1.3
  * 
  */
 
@@ -19,7 +19,7 @@ $l['selectallincodequoteonlyfade_Desc'] = 'Seleccionar todo en Code y PHP mas co
 $l['selectallincodequoteonlyfade_Web'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
 $l['selectallincodequoteonlyfade_Auth'] = 'Edson Ordaz & Vintagedaddyo';
 $l['selectallincodequoteonlyfade_AuthSite'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
-$l['selectallincodequoteonlyfade_Ver'] = '1.2';
+$l['selectallincodequoteonlyfade_Ver'] = '1.3';
 $l['selectallincodequoteonlyfade_GUID'] = '608cb4086667cdd6d0d3ba103991c309';
 $l['selectallincodequoteonlyfade_Compat'] = '18*';
 $l['selectallincodequoteonlyfade_CodeName'] = 'selectallincodequoteonlyfade';

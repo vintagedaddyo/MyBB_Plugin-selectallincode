@@ -8,7 +8,7 @@
  *
  * MyBB Version: 1.8
  *
- * Plugin Version: 1.2
+ * Plugin Version: 1.3
  * 
  */
 
@@ -19,7 +19,7 @@ $l['saicapqcfade_Desc'] = 'Seleccionar todo en Code y PHP mas colapso y expandir
 $l['saicapqcfade_Web'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
 $l['saicapqcfade_Auth'] = 'Edson Ordaz & Vintagedaddyo';
 $l['saicapqcfade_AuthSite'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
-$l['saicapqcfade_Ver'] = '1.2';
+$l['saicapqcfade_Ver'] = '1.3';
 $l['saicapqcfade_GUID'] = '608cb4086667cdd6d0d3ba103991c309';
 $l['saicapqcfade_Compat'] = '18*';
 $l['saicapqcfade_CodeName'] = 'saicapqcfade';

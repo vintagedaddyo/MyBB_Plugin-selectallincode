@@ -8,7 +8,7 @@
  *
  * MyBB Version: 1.8
  *
- * Plugin Version: 1.2
+ * Plugin Version: 1.3
  * 
  */
 
@@ -19,7 +19,7 @@ $l['selectallincodeplain_Desc'] = 'Select all in Code and PHP';
 $l['selectallincodeplain_Web'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
 $l['selectallincodeplain_Auth'] = 'Edson Ordaz & Vintagedaddyo';
 $l['selectallincodeplain_AuthSite'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
-$l['selectallincodeplain_Ver'] = '1.2';
+$l['selectallincodeplain_Ver'] = '1.3';
 $l['selectallincodeplain_GUID'] = '608cb4086667cdd6d0d3ba103991c309';
 $l['selectallincodeplain_Compat'] = '18*';
 $l['selectallincodeplain_CodeName'] = 'selectallincodeplain';

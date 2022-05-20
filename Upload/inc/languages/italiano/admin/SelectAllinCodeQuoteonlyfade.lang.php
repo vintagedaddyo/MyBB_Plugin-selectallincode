@@ -8,7 +8,7 @@
  *
  * MyBB Version: 1.8
  *
- * Plugin Version: 1.2
+ * Plugin Version: 1.3
  * 
  */
 
@@ -19,7 +19,7 @@ $l['selectallincodequoteonlyfade_Desc'] = 'Seleziona tutto in Codice e PHP piu c
 $l['selectallincodequoteonlyfade_Web'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
 $l['selectallincodequoteonlyfade_Auth'] = 'Edson Ordaz & Vintagedaddyo';
 $l['selectallincodequoteonlyfade_AuthSite'] = 'https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode';
-$l['selectallincodequoteonlyfade_Ver'] = '1.2';
+$l['selectallincodequoteonlyfade_Ver'] = '1.3';
 $l['selectallincodequoteonlyfade_GUID'] = '608cb4086667cdd6d0d3ba103991c309';
 $l['selectallincodequoteonlyfade_Compat'] = '18*';
 $l['selectallincodequoteonlyfade_CodeName'] = 'selectallincodequoteonlyfade';

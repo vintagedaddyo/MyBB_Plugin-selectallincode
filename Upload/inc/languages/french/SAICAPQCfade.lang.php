@@ -8,13 +8,11 @@
  *
  * MyBB Version: 1.8
  *
- * Plugin Version: 1.2
+ * Plugin Version: 1.3
  * 
  */
 
 $l['saicapqcfade_Code'] = " <a href=\"#\" onclick=\"selectCode(this); return false;\">(Tout sélectionner)</a>";
 $l['saicapqcfade_PHP_Code'] = " <a href=\"#\" onclick=\"selectCode(this); return false;\">(Tout sélectionner)</a>";
 
-$l['saicapqcfade_showmore'] = "Montre plus";
-$l['saicapqcfade_showless'] = "Montre moins";
 ?>

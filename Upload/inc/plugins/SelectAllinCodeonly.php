@@ -8,7 +8,7 @@
  *
  * MyBB Version: 1.8
  *
- * Plugin Version: 1.2
+ * Plugin Version: 1.3
  * 
  */
 
@@ -135,17 +135,58 @@ function selectCode(a)
     border-radius: 0px 0px 5px 5px;
 }
 .collapsed:after {
-    content: 'Show More';
+/*    content: 'Show More';*/
     opacity: 0.9;
 }
 .expanded:after {
-    content: 'Show Less';
+/*    content: 'Show Less';*/
     opacity: 0.7;
 }
 .collapsed:hover:after, .expanded:hover:after {
     opacity: 1;
     background: #838383;
     color: #1A1A1A;
+}
+/** Translations **/
+
+/* english */
+
+.collapsed:lang(en):after{
+   content: 'Show More';
+}
+
+.expanded:lang(en):after{
+   content: 'Show Less';
+}
+
+/* espanol */
+
+.collapsed:lang(es):after{
+   content: 'Mostrar más';
+}
+
+.expanded:lang(es):after{
+   content: 'Muestra menos';
+}
+
+/* french */
+
+.collapsed:lang(fr):after{
+   content: 'Montre plus';
+}
+
+.expanded:lang(fr):after{
+   content: 'Montrer moins';
+}
+
+/* italiano */
+
+.collapsed:lang(it):after{
+   content: 'Mostra di più';
+}
+
+.expanded:lang(it):after{
+   content: 'Mostra meno';
 }
 </style>
 <!-- Codeblock Expand/Collapse -->
