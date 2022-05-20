@@ -8,7 +8,7 @@ Plugin Author: Edson Ordaz & Vintagedaddyo
 Plugin Website: https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode
 Plugin Version: 1.3
 Plugin Mybb Compatibility: 1.8.x
-Plugin Language: English
+Plugin Language:  English, EnglishGB, Espanol, French, Italiano
 Plugin File Edits: No
 Plugin Description: Select all the code of tags 'Code' and 'PHP'.
 
@@ -22,7 +22,7 @@ License: license.txt
 
 by:  Vintagedaddyo: http://community.mybb.com/user-6029.html
 
- * Fri, Nov 25th 3:27 Just now updated with three plugin file options (Select All "Plus", Select All "Code Only", Select All "Quote only")
+ * Fri, Nov 25th 16 3:27 Just now updated with three plugin file options (Select All "Plus", Select All "Code Only", Select All "Quote only")
 
  * Added another 2 alternates: SelectAllinCodeQuoteonlyfade.php & SAICAPQCfade.php based on request at: https://community.mybb.com/thread-206116.html
 
