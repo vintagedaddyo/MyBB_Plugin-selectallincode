@@ -20,6 +20,10 @@ By placing code between the tags cod and label PHP text beside the code appears 
 
 License: license.txt
 
+
+NOTE: There are currently six different plugin variants included in this package as when this package was re-continued years ago, folks during such time period asked for several variants of the sort so each variant was provided as added as such in this package, each with their respective plugin file and the corresponding language files. If you desire not to upload all of such as usual and then use whatever one you decide upon and instead opt to not upload all of them period and only want to upload and use only one specific one, then you would need only upload the specific plugin file and the respective languages files for such, if that makes sense.
+
+
 * Updated to 1.1 for MyBB 1.8.x 
 
 by:  Vintagedaddyo: http://community.mybb.com/user-6029.html
