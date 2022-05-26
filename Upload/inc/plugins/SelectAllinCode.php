@@ -188,6 +188,16 @@ function selectCode(a)
 .expanded:lang(it):after{
    content: 'Mostra meno';
 }
+
+/* german */
+
+.collapsed:lang(de):after{
+   content: 'Zeige mehr';
+}
+
+.expanded:lang(de):after{
+   content: 'Weniger anzeigen';
+}
 </style>
 <!-- Blockquote Expand/Collapse -->
 <script type=\"text/javascript\">

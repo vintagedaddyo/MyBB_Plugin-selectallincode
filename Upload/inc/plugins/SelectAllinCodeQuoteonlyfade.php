@@ -163,7 +163,13 @@ function selectCode(a)
 
   .blockquote-collapsed:lang(it):after{
     content: 'Mostra di più';
-   }   
+   }
+
+  /* german */
+
+  .blockquote-collapsed:lang(de):after{
+    content: 'Zeige mehr';
+   }      
 </style>
 <!-- Blockquote Collapsed/Expand -->
 <script type=\"text/javascript\">

@@ -10,7 +10,7 @@ Plugin Author: Edson Ordaz & Vintagedaddyo
 Plugin Website: https://github.com/vintagedaddyo/MyBB_Plugin-selectallincode
 Plugin Version: 1.3
 Plugin Mybb Compatibility: 1.8.x
-Plugin Language: English, EnglishGB, Espanol, French, Italiano
+Plugin Language: English, EnglishGB, Espanol, French, Italiano, German
 Plugin File Edits: No
 Plugin Description: Select all the code of tags 'Code' and 'PHP'.
 
@@ -49,6 +49,8 @@ Further localization support
 
 * fixed localization support only for the plugins that have "show more" & "show less" expand & collapse text as I had completely forgotten that I had never gotten around to that when I last looked at these plugins a few years ago.
 
+* added german localization support
+
 Current localization support:
 
 - english
@@ -56,3 +58,4 @@ Current localization support:
 - espanol
 - french
 - italiano
+- german
